@@ -83,12 +83,4 @@ report.generate_html_report({
   (e.g. via `boto3` for AWS `iam:Get*`/`iam:List*` calls) and is a
   natural next step once you tell me which provider you use.
 
-## Suggested first run against your home network
 
-```bash
-python main.py discover-hosts 192.168.1.0/24
-python main.py scan-ports 192.168.1.254   # main router
-python main.py scan-ports 192.168.1.1     # switch/secondary router
-python main.py scan-ports 192.168.1.97    # your CachyOS workstation
-python main.py ssh-audit /etc/ssh/sshd_config   # run ON the Ubuntu Server
-```
