@@ -1,9 +1,6 @@
 # Cyber Security Toolkit
 
 A modular Python CLI toolkit for defensive security work on infrastructure
-you own or are explicitly authorized to test (e.g. your home lab: main
-router 192.168.1.254, switch-mode router 192.168.1.1, workstation
-192.168.1.97, and your Ubuntu Server).
 
 > **Authorization notice:** Only scan/test hosts and networks you own or
 > have explicit written permission to test. Unauthorized scanning of
